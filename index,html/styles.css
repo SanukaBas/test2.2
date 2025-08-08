@@ -1,0 +1,84 @@
+body{margin: 0;
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-img{                                                                                             
+    background-image: url(../praveen.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sub-title{
+     text-transform: uppercase;
+     color: #D3D3D3;
+     font-size: 30px;
+     margin-bottom: 100px;
+  }
+.header-left{
+     padding: 60px 30px 60px 60px;
+}
+.title{font-size: 84PX;
+        width: 400;
+}
+.header-para{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.header{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sub-header{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.subheader-img{
+     background-image: url(../praveen.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sub-title{
+     text-transform: uppercase;
+     color: #D3D3D3;
+     font-size: 30px;
+     margin-bottom: 100px;
+}
+.sub-header-right{
+     padding: 60px 30px 60px 60px;
+}
+.title{
+       font-size: 84PX;
+        width: 400;
+}
+.header-para{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.midddle-right{
+    background-image: url(../praveen.jpg);
+    background-image: url(../praveen.jpg);
+    width: 1800px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+@@ -54,7 +54,7 @@ body {
+    background-size: contain;
+}
+.midddle-left{
+    background-image: url(../praveen.jpg);
+    background-image: url(../praveen.jpg);
+    width: 1800px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+  
