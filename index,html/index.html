@@ -56,12 +56,12 @@
                  Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown 
                  printer took a galley of type and scrambled it to make a type specimen book.</p>
                  <div class="class"list-image>
-                 <img src="../praveen.jpg " alt=" " class="list-image"/>
-                <img src=" ../praveen.jpg" alt=" " class="list-image"/>
-                <img src="../praveen.jpg " alt=" " class="list-image"/>
-                <img src="../praveen.jpg " alt=" " class="list-image"/>
-                <img src=" ../praveen.jpg" alt=" " class="list-image"/>
-                <img src=" ../praveen.jpg" alt=" " class="list-image"/>
+                 <img src="assets/green_room9.jpg" alt=" " class="list-image"/>
+                <img src="assets/green_room5.jpeg" alt=" " class="list-image"/>
+                <img src="assets/green_room3.jpeg" alt="" class="list-image"/>
+                <img src="assets/green_room3.jpeg" alt=" " class="list-image"/>
+                <img src="assets/green_room2 - Copy (4).jpg" alt=" " class="list-image"/>
+                <img src="assets/green_room6.jpg" alt=" " class="list-image"/>
                  </div>
         </div>
 
@@ -70,5 +70,43 @@
     <footer>
         <div class="bottom-line">copyright 2025 Green Room: Divolopment by Praveen</div>
     </footer> 
+     <h1>Hello</h1>
+        <button onclick="sayHello()">Click Me</button><br/><br/>
+         <input placeholder="Enter a number" type="number" id="numInput"/>
+        <button onclick="showsquare()"> Get Square</button>
+        <p id="SquareResult"></p>
+       
+       <script>
+            totalApple = 45;
+            totalAppleAfterFristCostomer = totalApple - 12;
+            totalAppleAftersecondCostomer = totalAppleAfterFristCostomer - 8;
+             
+             applePrice = 200;
+
+              console.log( totalAppleAftersecondCostomer);
+              console.log((  totalApple - totalAppleAftersecondCostomer) * applePrice );
+              
+              cashierstart = 3000;
+              cashierBalanceAfterFristClass =  cashierstart +1200*20 ;
+               cashierBalanceAftersecondClass = cashierBalanceAfterFristClass +1200*20;
+                
+            console.log(cashierBalanceAftersecondClass);
+              cashierBalanceAfterFristClassPayment =cashierBalanceAftersecondClass - 1000* 20;
+               
+               console.log(cashierBalanceAfterFristClassPayment);
+
+              function sayHello() {
+                    console.log("Clicked Hello")
+               }
+              
+               function showsquare () {
+                let num =document.getElementById("numInput").value;
+                console.log(num)
+                let result = num * num;
+                console.log(result)
+                document.getElementById("SquareResult").textContent = result
+               }
+
+</script>
     </body>
 </html>

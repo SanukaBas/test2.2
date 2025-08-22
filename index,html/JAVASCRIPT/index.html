@@ -2,7 +2,12 @@
 <html>
     <body>
         <h1>Hello</h1>
-        <script>
+        <button onclick="sayHello()">Click Me</button><br/><br/>
+         <input placeholder="Enter a number" type="number" id="numInput"/>
+        <button onclick="showsquare()"> Get Square</button>
+         <p id="SquareResult"></p>
+       
+       <script>
             totalApple = 45;
             totalAppleAfterFristCostomer = totalApple - 12;
             totalAppleAftersecondCostomer = totalAppleAfterFristCostomer - 8;
@@ -20,6 +25,19 @@
               cashierBalanceAfterFristClassPayment =cashierBalanceAftersecondClass - 1000* 20;
                
                console.log(cashierBalanceAfterFristClassPayment);
+
+              function sayHello() {
+                    console.log("Clicked Hello")
+               }
+              
+               function showsquare () {
+                let num =document.getElementById("numInput").value;
+                console.log(num)
+                let result = num * num;
+                
+                 document.getElementById("SquareResult").textContent = result
+               }
+
 </script>
     </body>
 </html>

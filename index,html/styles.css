@@ -6,7 +6,7 @@ body{margin: 0;
     grid-template-columns: 1fr 1fr;
 }
 .header-img{                                                                                             
-    background-image: url(../praveen.jpg);
+    background-image: url(assets/green_room1\ -\ Copy\ \(4\)\ copy\ 3.jpeg);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -37,7 +37,7 @@ body{margin: 0;
     gap: 80px;
 }
 .subheader-img{
-     background-image: url(../praveen.jpg);
+     background-image: url(assets/green_room2\ -\ Copy\ \(4\).jpg);
     height: 100vh;
     width: 100%;
     background-position:center ;
@@ -51,7 +51,7 @@ body{margin: 0;
    text-align: right;
 } 
 .midddle-left{
-    background:url(../praveen.jpg) ;
+    background:url(assets/green_room7.jpg) ;
     width: 1800px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -59,7 +59,7 @@ body{margin: 0;
     background-size: contain;
 }
 .middle-right{
-       background:url(../praveen.jpg) ;
+       background:url(assets/green_room6.jpg) ;
     width: 1800px;
     background-repeat: no-repeat;
     background-position: bottom right;
